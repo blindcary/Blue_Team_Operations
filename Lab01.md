@@ -20,6 +20,8 @@ Detect unauthorized modifications to sensitive system files on a Linux (Kali) en
 | **Timestamp** | Thu Dec 18 23:15:10 2025 | Established the exact timeline of the event. |
 | **Executable (exe)** | `/usr/bin/passwd` | Confirmed the standard password utility was used. |
 | **AUID (Audit ID)** | `1000` | Identified the original user (kevin) despite using `sudo`. |
+<img width="1407" height="496" alt="Screenshot_20251218_231849" src="https://github.com/user-attachments/assets/72dc1934-27e3-4832-8b4c-b1704be34904" />
+
 
 ## Conclusion
 The audit daemon successfully captured the "AUID," which is critical for non-repudiation. Even if a user gains root privileges, their original login identity remains tied to the action.
