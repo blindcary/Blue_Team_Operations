@@ -20,6 +20,8 @@ Establish a baseline for system visibility on a Kali Linux endpoint and identify
 - **Process ID (PID):** `3415`
 - **Target User:** `backup_admin`
 - **UID/GID:** `1001/1001`
+  <img width="1366" height="768" alt="Screenshot_20251218_230538" src="https://github.com/user-attachments/assets/85f44a0d-f7e4-4750-9ddb-1e1b9833e998" />
+
 
 ## Analyst Notes
 Modern Kali Linux prioritizes the binary `journalctl` over traditional text logs. The PID (3415) is the primary anchor for investigating what other actions this process took.
