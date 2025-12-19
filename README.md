@@ -38,7 +38,7 @@ This repository serves as a professional lab journal for my journey into **Blue 
 ---
 
 ## Completed Labs
-* [Lab 00: Linux System Visibility & "Ground Truth" Logging](./Lab00_Linux_Logging.md) - *Simulated persistence via user creation.*
+* [Lab 00: Linux System Visibility & "Ground Truth" Logging](./Lab00.md) - *Simulated persistence via user creation.*
 * [Lab 01: Linux System Auditing & File Monitoring](./Lab01_Linux_Auditing.md) - *Monitoring /etc/shadow for unauthorized access.*
 * [Lab 02: Log Analysis at Scale](./Lab02_Log_Analysis.md) - *Transforming raw audit data into actionable reports.*
 
