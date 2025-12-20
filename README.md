@@ -12,7 +12,7 @@ This repository serves as a professional lab journal for my journey into **Blue 
 ### Week 1: Foundations & System Visibility (Current)
 * [x] **Linux Logging Fundamentals:** Understanding `systemd-journald` and `journalctl`.
 * [x] **Endpoint Auditing:** Implementing file integrity monitoring with `auditd`.
-* [ ] **Log Analysis at Scale:** Mastering the "Analyst Pipeline" (`grep`, `awk`, `sed`).
+* [x] **Log Analysis at Scale:** Mastering the "Analyst Pipeline" (`grep`, `awk`, `sed`).
 * [ ] **Network Traffic Analysis:** Basics of Wireshark and PCAP analysis.
 
 ### Week 2: Detection & Strategy
@@ -41,6 +41,7 @@ This repository serves as a professional lab journal for my journey into **Blue 
 * [Lab 00: Linux System Visibility & "Ground Truth" Logging](./Lab00.md) - *Simulated persistence via user creation.*
 * [Lab 01: Linux System Auditing & File Monitoring](./Lab01.md) - *Monitoring /etc/shadow for unauthorized access.*
 * [Lab 02: Log Analysis at Scale](./Lab02.md) - *Transforming raw audit data into actionable reports.*
+* [Lab 03: Network Traffic Analysis (tshark)](./Lab03.md)
 
 ---
 
