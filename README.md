@@ -13,7 +13,7 @@ This repository serves as a professional lab journal for my journey into **Blue 
 * [x] **Linux Logging Fundamentals:** Understanding `systemd-journald` and `journalctl`.
 * [x] **Endpoint Auditing:** Implementing file integrity monitoring with `auditd`.
 * [x] **Log Analysis at Scale:** Mastering the "Analyst Pipeline" (`grep`, `awk`, `sed`).
-* [ ] **Network Traffic Analysis:** Basics of Wireshark and PCAP analysis.
+* [x] **Network Traffic Analysis:** Basics of Wireshark and PCAP analysis.
 
 ### Week 2: Detection & Strategy
 * [ ] **MITRE ATT&CK Mapping:** Learning how to categorize attacker behavior.
@@ -48,3 +48,5 @@ This repository serves as a professional lab journal for my journey into **Blue 
 ## 📝 Key Takeaways
 - **AUID Matters:** Even if an attacker uses `sudo`, the Audit User ID (`auid`) preserves their original identity for non-repudiation.
 - **Visibility is King:** If an event isn't logged, it didn't happen. A SOC analyst's first job is ensuring visibility is active.
+
+
