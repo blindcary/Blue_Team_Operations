@@ -16,8 +16,8 @@ This repository serves as a professional lab journal for my journey into **Blue 
 * [x] **Network Traffic Analysis:** Basics of Wireshark and PCAP analysis.
 
 ### Week 2: Detection & Strategy
-* [ ] **MITRE ATT&CK Mapping:** Learning how to categorize attacker behavior.
-* [ ] **Intrusion Detection:** Introduction to Zeek and Suricata.
+* [x] **MITRE ATT&CK Mapping:** Learning how to categorize attacker behavior.
+* [x] **Intrusion Detection:** Introduction to Zeek and Suricata.
 * [ ] **Detection Engineering:** Writing basic Sigma or YARA rules.
 
 ### Week 3: Incident Response & SIEM logic
@@ -31,7 +31,7 @@ This repository serves as a professional lab journal for my journey into **Blue 
 | Category | Tools |
 | :--- | :--- |
 | **Log Analysis** | `journalctl`, `auditd`, `grep`, `awk` |
-| **Network** | Wireshark (Upcoming) |
+| **Network** | Wireshark/Tshark |
 | **EDR/Endpoint** | Sysmon for Linux (Upcoming) |
 | **Frameworks** | MITRE ATT&CK, NIST 800-61 |
 
