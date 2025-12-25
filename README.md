@@ -43,7 +43,7 @@ This repository serves as a professional lab journal for my journey into **Blue 
 * [Lab 02: Log Analysis at Scale](./Lab02.md) - *Transforming raw audit data into actionable reports.*
 * [Lab 03: Network Traffic Analysis (tshark)](./Lab03.md) - *Report on Network Traffic Analysis*
 * [Lab 04: Independent Analysis](./Lab04.md) - *Summary of logging*
-* [Lab 05: Automating Detection with Suricata](./Lab05) - *Automated Detection Engineering*
+* [Lab 05: Automating Detection with Suricata](./Lab05.md) - *Automated Detection Engineering*
 
 ---
 
