@@ -16,3 +16,13 @@ By integrating Suricata with Kibana, I can now visualize:
 
 ## Conclusion
 Transitioning from raw text logs to a SIEM is the difference between "hunting" and "monitoring." This setup allows for faster incident response times and provides a high-level overview of the network's security posture, essential for professional SOC environments.
+
+### Troubleshooting & Resolution
+During the implementation of the logging pipeline, I encountered a "Zero Data" issue in Kibana despite Suricata successfully generating alerts in `eve.json`. 
+
+**Root Cause:** The Filebeat Suricata module was dormant (`enabled: false`) and lacked an explicit path to the log source.
+**Resolution:** 1. Modified `/etc/filebeat/modules.d/suricata.yml` to set `enabled: true`.
+
+2. Explicitly defined `var.paths: ["/var/log/suricata/eve.json"]`.
+3. Restarted the Filebeat service, resulting in the successful ingestion of 350+ telemetry documents.
+<img width="1366" height="768" alt="Screenshot_20251228_005959" src="https://github.com/user-attachments/assets/03d792fd-468c-4c9b-b677-cde9be4b5f19" />
