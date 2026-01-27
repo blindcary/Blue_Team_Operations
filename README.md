@@ -18,10 +18,10 @@ This repository serves as a professional lab journal for my journey into **Blue 
 ### Week 2: Detection & Strategy
 * [x] **MITRE ATT&CK Mapping:** Learning how to categorize attacker behavior.
 * [x] **Intrusion Detection:** Introduction to Zeek and Suricata.
-* [ ] **Detection Engineering:** Writing basic Sigma or YARA rules.
+* [x] **Detection Engineering:** Writing basic Sigma or YARA rules.
 
 ### Week 3: Incident Response & SIEM logic
-* [ ] **SIEM Fundamentals:** Understanding how logs aggregate into alerts.
+* [x] **SIEM Fundamentals:** Understanding how logs aggregate into alerts.
 * [ ] **The IR Lifecycle:** Preparation, Identification, Containment, and Eradication.
 * [ ] **Final Capstone:** Handling a simulated multi-stage breach.
 
